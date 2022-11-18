@@ -35,6 +35,7 @@ a:hover {
 
 img {
     width: 100%;
+
 }
 
 section {
@@ -168,14 +169,18 @@ section {
 
 /* Projects */
 
-.projects {
+.project {
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--border-radius);
     display: flex;
     padding: 32px;
 }
 
-.projects .icon {
+.project img {
+    padding-right: 6rem;
+}
+
+.project .icon {
     width: 100px;
     height: 100px;
     background-color: var(--dark);
